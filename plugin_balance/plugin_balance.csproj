@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\NeoDemoScanner\bin\Debug\netcoreapp2.2\plugins\net47</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\scanner_plugin_framework\scanner_plugin_framework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="thinSDK">
+      <HintPath>..\lib\thinSDK.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

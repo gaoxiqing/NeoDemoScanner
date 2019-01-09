@@ -1,0 +1,6 @@
+﻿{
+  "statepath": "D:\\NEO\\SRC\\Demo\\State",
+  "rpcurl": "http://127.0.0.1:50332/",
+  "pluginpath": "plugins\\net47\\netstandard2.0",
+  "utxorpcurl": "http://127.0.0.1:20666/"
+}

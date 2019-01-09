@@ -1,0 +1,32 @@
+{
+    "hash":"0xa9e700a4adb36ae6a34ad3738763002bc3fb576b",
+    "entrypoint":"Main",
+    "functions":
+    [
+        {
+            "name":"Main",
+            "parameters":
+            [
+                {
+                    "name":"method",
+                    "type":"String"
+                },
+                {
+                    "name":"args",
+                    "type":"Array"
+                }
+            ],
+            "returntype":"String"
+        },
+        {
+            "name":"totalSupply",
+            "parameters":
+            [
+            ],
+            "returntype":"String"
+        }
+    ],
+    "events":
+    [
+    ]
+}
